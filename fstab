@@ -1,0 +1,18 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# /dev/sda6 LABEL=Arch
+UUID=74cd4d53-a22c-405b-af05-172cc8c5187a	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /dev/sda1 LABEL=EFI
+UUID=67E3-17ED      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro,nodev,nosuid,noexec	0 2
+
+# /dev/sdb2 LABEL=linux home
+UUID=14e497e1-3eec-4ecd-9770-34555e552b11	/home     	ext4      	rw,relatime,data=ordered,nodev,nosuid	0 2
+
+# /dev/sdb2 data
+UUID=4147B1367BB06118	/mnt/data 	ntfs-3g 	defaults	0 0
+
+# /dev/sdb3 swap
+UUID=b106ae1d-c8a8-4895-9bc9-e603b6d596e6	none	swap	defaults	0 0
