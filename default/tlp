@@ -118,7 +118,7 @@ DISK_SPINDOWN_TIMEOUT_ON_BAT="0 180"
 # Select IO scheduler for the disk devices: cfq, deadline, noop (Default: cfq);
 # Separate values for multiple disks with spaces. Use the special value 'keep'
 # to keep the kernel default scheduler for the particular disk.
-#DISK_IOSCHED="cfq cfq"
+DISK_IOSCHED="bfq bfq"
 
 # SATA aggressive link power management (ALPM):
 #   min_power, medium_power, max_performance
