@@ -15,4 +15,7 @@ UUID=14e497e1-3eec-4ecd-9770-34555e552b11	/home     	ext4      	rw,relatime,data
 UUID=01cb1974-de75-4de1-ba49-83b4323ee6d9	/mnt/data 	ext4 	defaults,relatime,nodev,nosuid	0 0
 
 # /dev/sdb3 swap
-UUID=b106ae1d-c8a8-4895-9bc9-e603b6d596e6	none	swap	defaults	0 0
+UUID=b5ff0824-6942-4e64-8e65-a0882683c531	none	swap	sw	0 0
+
+# /dev/sdb5 Pictures
+UUID=f894d4c7-d10a-32dd-8780-3668aa220258	/mnt/data/Pictures	hfsplus force,rw	0 0
